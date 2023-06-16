@@ -18,6 +18,12 @@ export default function Profile({ user }) {
           </Typography.Text>
 
           <Typography.Text>
+            <pre>{ user }</pre>
+          </Typography.Text>
+            
+
+                 
+          <Typography.Text>
             <Link href="/">Static example with useSWR</Link>
           </Typography.Text>
         </Space>
